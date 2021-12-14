@@ -197,7 +197,7 @@ h1{
 .experiences__company-header-name {
   color: var(--primary-text-color);
   text-decoration-color: var(--text-decoration-color);
-  text-decoration-line: underline;
+  //text-decoration-line: underline;
   text-align: left;
   margin-bottom: 20px;
   }
