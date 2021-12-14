@@ -13,8 +13,11 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
+  //--border-color: #ff9a0045;
+  --border-color: #4b4b4b;
   --text-decoration-color: #ff9a00;
+  background: rgb(123,114,109);
+  background: linear-gradient(180deg, rgb(217, 217, 217) 35%, rgb(249, 249, 249) 100%);
   }
 
 .container {
@@ -22,7 +25,11 @@ body {
   padding: 0 30px;
   max-width: 900px;
   }
-
+h1{
+  text-align: center;
+  text-decoration-color: transparent !important;
+  background: rgba(75,75,75, 30%);
+  }
 .fh {
   display: flex;
   flex-direction: row;
@@ -129,7 +136,7 @@ body {
   height: 100px;
   object-fit: cover;
   border: 3px solid;
-  border-color: var(--text-decoration-color);
+  //border-color: var(--text-decoration-color);
   }
 //Intro and skills styles
 .intro {
