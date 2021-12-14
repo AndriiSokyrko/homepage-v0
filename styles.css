@@ -157,7 +157,7 @@ h1{
   }
 
 .intro__icon path {
-  fill: var(--text-decoration-color);
+  //fill: var(--text-decoration-color);
   }
 
 .intro_text {
